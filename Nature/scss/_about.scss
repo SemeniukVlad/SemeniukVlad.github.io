@@ -1,0 +1,55 @@
+@import "./variables";
+@import "./animations";
+
+.about_body{
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(dist/img/krol.jpg) center;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 150px;
+
+    .about_text{
+        border-radius: 15px;
+        border: 2px solid $secondary-color;
+        width: 80%;
+        color: $text-color;
+        background-color: $dark-bg-color;
+        text-align: center;
+        margin: 100px auto 0; 
+
+        h1{
+            font-size: 2.5em;
+            color: $secondary-color;
+            margin-top: 50px;
+        }
+
+        .text_wrap{
+            margin: 80px 15%;
+
+            p{
+                font-size: 1.1em;
+                text-align: justify;
+                text-indent: 30px;
+
+                .about_river{
+                    float: right;
+                    width: 40%;
+                    margin: 10px;
+                }
+
+                .about_forest{
+                    float: left;
+                    width: 40%;
+                    margin: 10px;
+                }
+            }
+
+            h2{
+                font-size: 1.5em;
+                margin: 50px 0 50px;
+            }
+        }
+    }
+
+}

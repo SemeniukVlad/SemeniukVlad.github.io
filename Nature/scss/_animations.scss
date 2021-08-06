@@ -1,0 +1,46 @@
+@keyframes grass{
+    from {
+        transform: skewX(-20deg);
+        background-position-x: 35px;
+    }
+    10% {
+        transform: skewX(-10deg);
+        background-position-x: 20px ;
+    }
+    20% {
+        transform: skewX(-20deg);
+        background-position-x: 35px ;
+    }
+    30% {
+        transform: skewX(5deg);
+        background-position-x: -12.5px ;
+    }
+    40% {
+        transform: skewX(10deg);
+        background-position-x: -20px ;
+    }
+    50% {
+        transform: skewX(-20deg);
+        background-position-x: 35px ;
+    }
+    60% {
+        transform: skewX(-10deg);
+        background-position-x: 20px ;
+    }
+    70% {
+        transform: skewX(0deg);
+        background-position-x: 0px ;
+    }
+    80% {
+        transform: skewX(5deg);
+        background-position-x: -12.5px ;
+    }
+    90% {
+        transform: skewX(-20deg);
+        background-position-x: 35px ;
+    }
+    to {
+        transform: skewX(-5deg);
+        background-position-x: 12.5px ;
+    }
+}

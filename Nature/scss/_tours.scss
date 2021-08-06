@@ -1,0 +1,58 @@
+@import "./variables";
+@import "./animations";
+
+.tours_body{
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(dist/img/volk.jpg) center;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 120px;
+
+    .tours{
+        border-radius: 15px;
+        border: 2px solid $secondary-color;
+        width: 70%;
+        color: $text-color;
+        background-color: $dark-bg-color;
+        text-align: start;
+        margin: 100px auto 0; 
+
+        .tours_text{
+            margin: 80px 0;
+
+            h2{
+                text-align: center;
+                margin: 100px 0 50px;
+            }
+        
+            ul{
+                list-style-type: circle;
+                padding-left: 10%;
+                padding-right: 10%;
+
+                li{
+                    margin: 10px 0;
+                    font-size: 1.1em;
+                    border-bottom: 1px solid $secondary-color;
+
+                    div{
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: space-between;
+                        margin: 20px 0;
+                    }
+                }
+            }
+        
+            .questions{
+                text-align: start;
+                margin-top: 30px;
+                margin-left: 10%;
+                font-size: 0.9em;
+                color: rgb(138, 138, 138);
+            }
+        }
+    }
+}

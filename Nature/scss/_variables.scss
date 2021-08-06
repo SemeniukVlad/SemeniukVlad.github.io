@@ -1,0 +1,32 @@
+$primary-color:rgb(255, 255, 255);
+$text-color:rgb(226, 226, 226);
+$secondary-color:lightgreen;
+$dark-color:rgb(27, 27, 27);
+$dark-bg-color:rgba(32, 32, 32, 0.85);
+$header-border:green;
+$header-font:'Montserrat Alternates', sans-serif;
+$main-font: 'Roboto', sans-serif;
+
+@mixin media-mob {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin media-md {
+    @media screen and (max-width: 1023px) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin media-xl {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}

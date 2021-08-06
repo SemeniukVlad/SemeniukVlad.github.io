@@ -1,0 +1,99 @@
+@import "./variables";
+@import "./home";
+@import "./about";
+@import "./gallery";
+@import "./contacts";
+@import "./tours";
+@import "./responsive";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    color: $primary-color;
+    font-family: $main-font;
+}
+
+a{
+    color: $primary-color;
+    text-decoration: none;
+    &:visited{
+        color: $primary-color;
+    }
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: $header-font;
+}
+
+header{
+    width: 100vw;
+
+    nav{
+
+        img{
+            display: none;
+        }
+
+        ul{
+            padding:50px 0 0 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+            
+            li{
+                margin: 0 15px;
+                font-size: 1.3em;
+
+                a{
+                    transition: all 0.5s;
+
+                    &:hover{
+                        color: $secondary-color;
+                        text-decoration: underline 2px;
+                        text-decoration-color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.grass_footer{
+    position: fixed;
+    bottom: 0;
+    
+    p{
+        margin-left: 10vw;
+        position: fixed;
+        bottom: 2.5vh;
+        z-index: 2;
+        color: white;
+        font-weight: 600;
+        text-shadow: 0px 0px 3px $dark-color;
+    }
+
+    div{
+        width: 100vw;
+        height: 120px;
+        background: url(dist/img/grass.png);
+        background-repeat: repeat-x;
+        background-size: contain;
+        transition: all 0.5s;
+        margin-left: -25vw;
+        width: 140vw;
+        animation: grass 20s ease-in-out infinite alternate-reverse;
+    }
+}

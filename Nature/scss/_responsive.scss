@@ -1,0 +1,317 @@
+@include media-xl{
+
+    .grass_footer{
+        display: block;
+    }
+}
+
+@include media-lg{
+
+    .tours_body{
+        min-height: 100vh;
+        padding-bottom: 30px;
+
+        .tours{
+            margin: 70px auto 0;  
+        }
+    }
+
+    .gallery_body{
+        min-height: 100vh;
+        padding-bottom: 30px;
+
+        .gallery{
+            margin: 70px auto 0;  
+        }
+    }
+
+    .contacts_body{
+        min-height: 100vh;
+        padding-bottom: 30px;
+
+        .contacts{
+            margin: 70px auto 0;  
+        }
+    }
+    
+    .about_body{
+        padding-bottom: 30px;
+
+        .about_text{
+            margin: 70px auto 0;  
+        }
+    }
+
+    body{
+        .grass_footer{
+            position: static;
+
+            p{
+                position: relative;
+                bottom: 0;
+                margin: 20px auto 0;
+                text-align: center;
+                color: $secondary-color;
+                text-shadow: none;
+                font-weight: 400;
+                z-index: -1;
+            }
+
+            div{
+                display: none;
+            }
+        }
+    }
+    
+}
+
+@include media-md{
+    main{
+
+        .home_text{
+            padding: 0 30px;
+
+            h1{
+                font-size: 2em;
+            }
+
+            h2{
+                margin-top: 20px;
+                font-size: 1em;
+            }
+        }
+    }
+
+    .about_body{
+
+        .about_text{
+            width: 90%;
+
+            h1{
+                font-size: 1.75em;
+            }
+
+            .text_wrap{
+                margin: 0 7% 80px;
+
+                h2{
+                    font-size: 1.25em;
+                    margin: 30px 0 30px;
+                }
+
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    .tours_body{
+        
+        .tours{
+            width: 90%;
+        }
+    }
+
+    .gallery_body{
+
+        .gallery{
+            width: 90%;
+
+            .gallery_imgs{
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 50px;
+            }
+        }
+    }
+
+    .contacts_body{
+
+        .contacts{
+            width: 60%;
+        }
+    }
+}
+
+@include media-mob{
+
+    main{
+
+        .home_text{
+            padding: 0 30px;
+
+            h1{
+                font-size: 2em;
+            }
+
+            h2{
+                margin-top: 20px;
+                font-size: 1em;
+            }
+        }
+    }
+
+    .header_home{
+        z-index: 5;
+    }
+
+
+
+    header{
+        
+        nav{
+            position: absolute;
+            top: 0;
+            width: 100vw;
+
+            .menu_btn{
+                display: block;
+                height: 50px;
+                position: fixed;
+                z-index: 5;
+                top: 10px;
+                right: 10px;
+                padding: 5px;
+                background: rgba(0, 0, 0, 0.336);
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            .menu{
+                flex-flow: column nowrap;
+                visibility: hidden;
+                opacity: 0;
+                height: 0;
+                transition: all 0.5s;
+                overflow: hidden;
+                
+                li{
+                    margin: 15px 0;
+                }
+            }
+
+            .menu_mob{
+                position: fixed;
+                visibility: visible;
+                opacity: 1;
+                height: 100vh;
+                width: 100vw;
+                background: rgba(0, 0, 0, 0.932);
+            }
+        }
+    }
+
+    .home_footer{
+
+        p{
+            margin-bottom: 5vw;
+        }
+    }
+
+    .about_body{
+
+        .about_text{
+            margin: 90px auto 0;
+            
+            h1{
+                font-size: 1.75em;
+            }
+
+            .text_wrap{
+                margin: 0 7% 80px;
+
+                h2{
+                    font-size: 1.25em;
+                    margin: 30px 0 30px;
+                }
+
+                p{
+                    font-size: 1em;
+                        
+                    .about_river{
+                        width: 100%;
+                        margin: 30px 0;
+                    }
+
+                    .about_forest{
+                        width: 100%;
+                        margin: 30px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .tours_body{
+
+        .tours{
+            margin: 90px auto 0;
+            font-size: 1.25em;
+
+            .tours_text{
+                margin: 80px 0;
+    
+                h2{
+                    text-align: center;
+                    margin: 100px 0 50px;
+                    font-size: 1.2em;
+                }
+            
+                ul{
+                    list-style-type: none;
+    
+                    li{
+                        text-align: center;
+                        margin: 10px 0;
+                        font-size: 1em;
+                        border-bottom: 1px solid $secondary-color;
+    
+                        div{
+                            display: flex;
+                            flex-flow: column nowrap;
+                            justify-content: space-between;
+                            margin: 20px 0;
+
+                            p{
+                                margin: 10px 0;
+                            }
+                        }
+                    }
+                }
+
+                .questions{
+                    text-align: center;
+                    margin-top: 50px;
+                    margin-left: 0;
+                    font-size: 0.9em;
+                    color: rgb(138, 138, 138);
+                }
+            }
+        }
+    }
+
+    .gallery_body{
+
+        .gallery{
+            margin: 90px auto 0;
+
+            .gallery_imgs{
+                margin: 15%;
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+    .dark_bg{
+        display: none;
+    }
+
+    .contacts_body{
+        padding-bottom: 0;
+
+        .contacts{
+            margin: 90px auto 0;
+            width: 90%;
+        }
+    }
+}

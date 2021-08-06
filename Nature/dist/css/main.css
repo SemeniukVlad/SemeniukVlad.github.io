@@ -1,0 +1,1051 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@-webkit-keyframes grass {
+  from {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  10% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  20% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  30% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  40% {
+    -webkit-transform: skewX(10deg);
+            transform: skewX(10deg);
+    background-position-x: -20px;
+  }
+  50% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  60% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  70% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    background-position-x: 0px;
+  }
+  80% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  90% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  to {
+    -webkit-transform: skewX(-5deg);
+            transform: skewX(-5deg);
+    background-position-x: 12.5px;
+  }
+}
+@keyframes grass {
+  from {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  10% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  20% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  30% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  40% {
+    -webkit-transform: skewX(10deg);
+            transform: skewX(10deg);
+    background-position-x: -20px;
+  }
+  50% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  60% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  70% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    background-position-x: 0px;
+  }
+  80% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  90% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  to {
+    -webkit-transform: skewX(-5deg);
+            transform: skewX(-5deg);
+    background-position-x: 12.5px;
+  }
+}
+
+.home-outer-bg {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/popuga.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/popuga.jpg) center;
+  position: absolute;
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: cover;
+}
+
+.home-bg-1 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/sova.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/sova.jpg) center;
+  position: absolute;
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: cover;
+}
+
+.home-bg-2 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/belka.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/belka.jpg) center;
+  position: absolute;
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: cover;
+}
+
+.home-bg-3 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/les2.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/les2.jpg) center;
+  position: absolute;
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: cover;
+}
+
+.home-bg-4 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/medved.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/medved.jpg) center;
+  position: absolute;
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: cover;
+}
+
+.home-bg-5 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/orel.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/orel.jpg) center;
+  position: absolute;
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  background-size: cover;
+}
+
+main .home_text {
+  width: 100%;
+  position: absolute;
+  top: 40vh;
+  z-index: 4;
+}
+
+main .home_text h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 4em;
+  color: lightgreen;
+  text-shadow: 2px 2px 2px green;
+  font-weight: 600;
+}
+
+main .home_text h2 {
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.home_footer {
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+}
+
+.home_footer p {
+  margin-left: 5vw;
+  margin-bottom: 2vw;
+  color: lightgreen;
+}
+
+.header_home {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+@keyframes grass {
+  from {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  10% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  20% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  30% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  40% {
+    -webkit-transform: skewX(10deg);
+            transform: skewX(10deg);
+    background-position-x: -20px;
+  }
+  50% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  60% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  70% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    background-position-x: 0px;
+  }
+  80% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  90% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  to {
+    -webkit-transform: skewX(-5deg);
+            transform: skewX(-5deg);
+    background-position-x: 12.5px;
+  }
+}
+
+.about_body {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/krol.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/krol.jpg) center;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+.about_body .about_text {
+  border-radius: 15px;
+  border: 2px solid lightgreen;
+  width: 80%;
+  color: #e2e2e2;
+  background-color: rgba(32, 32, 32, 0.85);
+  text-align: center;
+  margin: 100px auto 0;
+}
+
+.about_body .about_text h1 {
+  font-size: 2.5em;
+  color: lightgreen;
+  margin-top: 50px;
+}
+
+.about_body .about_text .text_wrap {
+  margin: 80px 15%;
+}
+
+.about_body .about_text .text_wrap p {
+  font-size: 1.1em;
+  text-align: justify;
+  text-indent: 30px;
+}
+
+.about_body .about_text .text_wrap p .about_river {
+  float: right;
+  width: 40%;
+  margin: 10px;
+}
+
+.about_body .about_text .text_wrap p .about_forest {
+  float: left;
+  width: 40%;
+  margin: 10px;
+}
+
+.about_body .about_text .text_wrap h2 {
+  font-size: 1.5em;
+  margin: 50px 0 50px;
+}
+
+@keyframes grass {
+  from {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  10% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  20% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  30% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  40% {
+    -webkit-transform: skewX(10deg);
+            transform: skewX(10deg);
+    background-position-x: -20px;
+  }
+  50% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  60% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  70% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    background-position-x: 0px;
+  }
+  80% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  90% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  to {
+    -webkit-transform: skewX(-5deg);
+            transform: skewX(-5deg);
+    background-position-x: 12.5px;
+  }
+}
+
+.gallery_body {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/orel2.jpg) center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/orel2.jpg) center top;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 150px;
+}
+
+.gallery_body .gallery {
+  border-radius: 15px;
+  border: 2px solid lightgreen;
+  width: 80%;
+  color: #e2e2e2;
+  background-color: rgba(32, 32, 32, 0.85);
+  text-align: center;
+  margin: 100px auto 0;
+}
+
+.gallery_body .gallery .gallery_imgs {
+  display: -ms-grid;
+  display: grid;
+  margin: 80px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 5%;
+          column-gap: 5%;
+  row-gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.gallery_body .gallery .gallery_imgs .gallery_desc {
+  font-size: 0.85em;
+}
+
+.gallery_body .gallery .gallery_imgs img {
+  width: 100%;
+  border-radius: 15px;
+  border: 2px solid lightgreen;
+}
+
+.gallery_body .gallery .gallery_imgs img:hover {
+  cursor: pointer;
+}
+
+.dark_bg {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.767);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.bg_show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.large_img {
+  position: absolute;
+  z-index: 5;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.close {
+  position: absolute;
+  cursor: pointer;
+  z-index: 6;
+  width: 2%;
+  top: 5vh;
+  right: 5vw;
+}
+
+@keyframes grass {
+  from {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  10% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  20% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  30% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  40% {
+    -webkit-transform: skewX(10deg);
+            transform: skewX(10deg);
+    background-position-x: -20px;
+  }
+  50% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  60% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  70% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    background-position-x: 0px;
+  }
+  80% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  90% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  to {
+    -webkit-transform: skewX(-5deg);
+            transform: skewX(-5deg);
+    background-position-x: 12.5px;
+  }
+}
+
+.contacts_body {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/kot.jpg) center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/kot.jpg) center top;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 150px;
+}
+
+.contacts_body .contacts {
+  border-radius: 15px;
+  border: 2px solid lightgreen;
+  width: 40%;
+  color: #e2e2e2;
+  background-color: rgba(32, 32, 32, 0.85);
+  text-align: center;
+  margin: 100px auto 0;
+}
+
+.contacts_body .contacts .contacts_text {
+  margin: 80px 0;
+}
+
+.contacts_body .contacts .contacts_text .contacts_item {
+  font-size: 1.1em;
+}
+
+.contacts_body .contacts .contacts_text .contacts_item p {
+  margin: 25px;
+}
+
+@keyframes grass {
+  from {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  10% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  20% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  30% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  40% {
+    -webkit-transform: skewX(10deg);
+            transform: skewX(10deg);
+    background-position-x: -20px;
+  }
+  50% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  60% {
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+    background-position-x: 20px;
+  }
+  70% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+    background-position-x: 0px;
+  }
+  80% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+    background-position-x: -12.5px;
+  }
+  90% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background-position-x: 35px;
+  }
+  to {
+    -webkit-transform: skewX(-5deg);
+            transform: skewX(-5deg);
+    background-position-x: 12.5px;
+  }
+}
+
+.tours_body {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/volk.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/volk.jpg) center;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 120px;
+}
+
+.tours_body .tours {
+  border-radius: 15px;
+  border: 2px solid lightgreen;
+  width: 70%;
+  color: #e2e2e2;
+  background-color: rgba(32, 32, 32, 0.85);
+  text-align: start;
+  margin: 100px auto 0;
+}
+
+.tours_body .tours .tours_text {
+  margin: 80px 0;
+}
+
+.tours_body .tours .tours_text h2 {
+  text-align: center;
+  margin: 100px 0 50px;
+}
+
+.tours_body .tours .tours_text ul {
+  list-style-type: circle;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.tours_body .tours .tours_text ul li {
+  margin: 10px 0;
+  font-size: 1.1em;
+  border-bottom: 1px solid lightgreen;
+}
+
+.tours_body .tours .tours_text ul li div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px 0;
+}
+
+.tours_body .tours .tours_text .questions {
+  text-align: start;
+  margin-top: 30px;
+  margin-left: 10%;
+  font-size: 0.9em;
+  color: #8a8a8a;
+}
+
+@media screen and (min-width: 1200px) {
+  .grass_footer {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .tours_body {
+    min-height: 100vh;
+    padding-bottom: 30px;
+  }
+  .tours_body .tours {
+    margin: 70px auto 0;
+  }
+  .gallery_body {
+    min-height: 100vh;
+    padding-bottom: 30px;
+  }
+  .gallery_body .gallery {
+    margin: 70px auto 0;
+  }
+  .contacts_body {
+    min-height: 100vh;
+    padding-bottom: 30px;
+  }
+  .contacts_body .contacts {
+    margin: 70px auto 0;
+  }
+  .about_body {
+    padding-bottom: 30px;
+  }
+  .about_body .about_text {
+    margin: 70px auto 0;
+  }
+  body .grass_footer {
+    position: static;
+  }
+  body .grass_footer p {
+    position: relative;
+    bottom: 0;
+    margin: 20px auto 0;
+    text-align: center;
+    color: lightgreen;
+    text-shadow: none;
+    font-weight: 400;
+    z-index: -1;
+  }
+  body .grass_footer div {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  main .home_text {
+    padding: 0 30px;
+  }
+  main .home_text h1 {
+    font-size: 2em;
+  }
+  main .home_text h2 {
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  .about_body .about_text {
+    width: 90%;
+  }
+  .about_body .about_text h1 {
+    font-size: 1.75em;
+  }
+  .about_body .about_text .text_wrap {
+    margin: 0 7% 80px;
+  }
+  .about_body .about_text .text_wrap h2 {
+    font-size: 1.25em;
+    margin: 30px 0 30px;
+  }
+  .about_body .about_text .text_wrap p {
+    font-size: 1em;
+  }
+  .tours_body .tours {
+    width: 90%;
+  }
+  .gallery_body .gallery {
+    width: 90%;
+  }
+  .gallery_body .gallery .gallery_imgs {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 50px;
+            column-gap: 50px;
+  }
+  .contacts_body .contacts {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  main .home_text {
+    padding: 0 30px;
+  }
+  main .home_text h1 {
+    font-size: 2em;
+  }
+  main .home_text h2 {
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  .header_home {
+    z-index: 5;
+  }
+  header nav {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+  }
+  header nav .menu_btn {
+    display: block;
+    height: 50px;
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.336);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  header nav .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    overflow: hidden;
+  }
+  header nav .menu li {
+    margin: 15px 0;
+  }
+  header nav .menu_mob {
+    position: fixed;
+    visibility: visible;
+    opacity: 1;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.932);
+  }
+  .home_footer p {
+    margin-bottom: 5vw;
+  }
+  .about_body .about_text {
+    margin: 90px auto 0;
+  }
+  .about_body .about_text h1 {
+    font-size: 1.75em;
+  }
+  .about_body .about_text .text_wrap {
+    margin: 0 7% 80px;
+  }
+  .about_body .about_text .text_wrap h2 {
+    font-size: 1.25em;
+    margin: 30px 0 30px;
+  }
+  .about_body .about_text .text_wrap p {
+    font-size: 1em;
+  }
+  .about_body .about_text .text_wrap p .about_river {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .about_body .about_text .text_wrap p .about_forest {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .tours_body .tours {
+    margin: 90px auto 0;
+    font-size: 1.25em;
+  }
+  .tours_body .tours .tours_text {
+    margin: 80px 0;
+  }
+  .tours_body .tours .tours_text h2 {
+    text-align: center;
+    margin: 100px 0 50px;
+    font-size: 1.2em;
+  }
+  .tours_body .tours .tours_text ul {
+    list-style-type: none;
+  }
+  .tours_body .tours .tours_text ul li {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1em;
+    border-bottom: 1px solid lightgreen;
+  }
+  .tours_body .tours .tours_text ul li div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 20px 0;
+  }
+  .tours_body .tours .tours_text ul li div p {
+    margin: 10px 0;
+  }
+  .tours_body .tours .tours_text .questions {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 0;
+    font-size: 0.9em;
+    color: #8a8a8a;
+  }
+  .gallery_body .gallery {
+    margin: 90px auto 0;
+  }
+  .gallery_body .gallery .gallery_imgs {
+    margin: 15%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .dark_bg {
+    display: none;
+  }
+  .contacts_body {
+    padding-bottom: 0;
+  }
+  .contacts_body .contacts {
+    margin: 90px auto 0;
+    width: 90%;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+header {
+  width: 100vw;
+}
+
+header nav img {
+  display: none;
+}
+
+header nav ul {
+  padding: 50px 0 0 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+  font-size: 1.3em;
+}
+
+header nav ul li a {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header nav ul li a:hover {
+  color: lightgreen;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+  -webkit-text-decoration-color: lightgreen;
+          text-decoration-color: lightgreen;
+}
+
+.grass_footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.grass_footer p {
+  margin-left: 10vw;
+  position: fixed;
+  bottom: 2.5vh;
+  z-index: 2;
+  color: white;
+  font-weight: 600;
+  text-shadow: 0px 0px 3px #1b1b1b;
+}
+
+.grass_footer div {
+  width: 100vw;
+  height: 120px;
+  background: url(/dist/img/grass.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-left: -25vw;
+  width: 140vw;
+  animation: grass 20s ease-in-out infinite alternate-reverse;
+}
+/*# sourceMappingURL=main.css.map */

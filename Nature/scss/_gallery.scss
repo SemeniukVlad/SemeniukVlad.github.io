@@ -1,0 +1,82 @@
+@import "./variables";
+@import "./animations";
+
+.gallery_body{
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(dist/img/orel2.jpg) center top;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 150px;
+
+    .gallery{
+        border-radius: 15px;
+        border: 2px solid $secondary-color;
+        width: 80%;
+        color: $text-color;
+        background-color: $dark-bg-color;
+        text-align: center;
+        margin: 100px auto 0; 
+
+        .gallery_imgs{
+            display: grid;
+            margin: 80px;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 5%;
+            row-gap: 30px;
+            justify-content: center;
+            overflow: hidden;
+
+            .gallery_desc{
+                font-size: 0.85em;
+            }
+
+            img{
+                width: 100%;
+                border-radius: 15px;
+                border: 2px solid $secondary-color;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
+
+.dark_bg{
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.767);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    transition: all 0.3s;
+    opacity: 0;
+}
+.bg_show{
+    visibility: visible;
+    opacity: 1;
+}
+.large_img{
+    position: absolute;
+    z-index: 5;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.close{
+    position: absolute;
+    cursor: pointer;
+    z-index: 6;
+    width: 2%;
+    top: 5vh;
+    right: 5vw;
+}
