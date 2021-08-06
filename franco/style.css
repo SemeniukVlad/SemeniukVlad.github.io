@@ -50,7 +50,7 @@ hr{
 }
 .main_intro{
     background: url(img/shipbg.jpg) no-repeat;
-    background-position: right -250px top -200px;
+    background-size: cover;
     background-attachment: fixed;
     height: 800px;
 }
