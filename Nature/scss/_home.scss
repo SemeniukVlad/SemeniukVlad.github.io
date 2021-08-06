@@ -11,36 +11,36 @@
 }
 
 .home-outer-bg{
-    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(dist/img/popuga.jpg) center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/popuga.jpg) center;
     @include home-bg();
 }
 
 .home-bg-1{
-    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(dist/img/sova.jpg) center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/sova.jpg) center;
     @include home-bg();
 }
 
 
 .home-bg-2{
-    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(dist/img/belka.jpg) center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/belka.jpg) center;
     @include home-bg();
 }
 
 
 .home-bg-3{
-    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(dist/img/les2.jpg) center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/les2.jpg) center;
     @include home-bg();
 }
 
 
 .home-bg-4{
-    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(dist/img/medved.jpg) center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/medved.jpg) center;
     @include home-bg();
 }
 
 
 .home-bg-5{
-    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(dist/img/orel.jpg) center;
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/orel.jpg) center;
     @include home-bg();
 }
 

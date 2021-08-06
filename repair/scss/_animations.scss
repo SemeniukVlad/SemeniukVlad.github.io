@@ -1,0 +1,16 @@
+@keyframes side{
+    from{
+        background-position-y: -100vh;
+    }
+    to{
+        background-position-y: 100vh;
+    }
+}
+@keyframes side-reverse{
+    from{
+        background-position-y: 100vh;
+    }
+    to{
+        background-position-y: -100vh;
+    }
+}

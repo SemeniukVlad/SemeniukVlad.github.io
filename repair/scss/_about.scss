@@ -1,0 +1,56 @@
+@import "./variables";
+
+.about_main{
+    padding: 100px 0 20px;
+    text-align: justify;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-size: 1.8em;
+        margin: 30px auto;
+        color: $secondary_color;
+        width: 90%;
+        text-align: center;
+    }
+
+    section{
+        background: $secondary_color;
+        width: 90%;
+        margin: 20px auto 0;
+        padding: 10px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            color: black;
+            margin: 20px 20px 0;
+            text-align: center;
+            font-size: 1.3em;
+        }
+        
+        div{
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            
+            img{
+                max-height: 150px;
+                margin: 20px auto;
+            }
+            
+            p{
+                font-size: 1.1em;
+                margin: 20px 0;
+            }
+        }
+
+
+    }
+}

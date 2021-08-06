@@ -1,0 +1,89 @@
+@import "./variables";
+
+.services_main{
+    padding: 100px 0 20px;
+    text-align: center;
+
+    h1{
+        font-size: 1.8em;
+        margin: 20px auto;
+        color: $secondary_color;
+        width: 90%;
+    }
+
+    section{
+        background: $secondary_color;
+        width: 90%;
+        margin: 50px auto 0;
+        padding: 30px;
+
+        .services_items{
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+
+            .services_item{
+                margin: 25px 0;
+                padding: 30px;
+                border: $primary_color 3px solid;
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                justify-content: space-between;
+    
+                h2{
+                    color: black;
+                    margin-bottom: 30px;
+                    font-size: 1.2em;
+                }
+    
+                img{
+                    width: 150px;
+                }
+    
+                p{
+                    font-size: 1.1em;
+                    margin: 20px 0;
+                }
+                
+                ul{
+                    list-style-type: none;
+                    font-family: 'Roboto', sans-serif;
+                    padding: 15px;
+                    background: $primary_color;
+                    color: $secondary_color;
+    
+                    li{
+                        display: flex;
+                        flex-flow: column nowrap;
+                        border-bottom: 3px $secondary_color solid;
+                        
+                        &:last-of-type{
+                            border-bottom: none;
+                        }
+    
+                        span:first-of-type{
+                            font-size: 1.1em;
+                            margin: 20px 0 ;
+                        }
+    
+                        span:last-of-type{
+                            font-size: 1.5em;
+                            margin: 0 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        a{
+            display: inline-block;
+            background: $primary_color;
+            padding: 20px;
+            color: $secondary_color;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+    }
+}

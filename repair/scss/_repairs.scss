@@ -1,0 +1,102 @@
+@import "./variables";
+
+@mixin btn {
+    cursor: pointer;
+    font-size: 1em;
+    padding: 20px;
+    background: $primary_color;
+    color: $secondary_color;
+    text-align: center;
+}
+
+.repairs_main{
+    padding: 100px 0 20px;
+    text-align: justify;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-size: 1.8em;
+        margin: 30px auto;
+        color: $secondary_color;
+        width: 90%;
+        text-align: center;
+    }
+
+    section{
+        background: $secondary_color;
+        width: 90%;
+        margin: 20px auto 0;
+        padding: 30px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            color: black;
+            margin: 20px auto;
+            text-align: center;
+            font-size: 1.3em;
+        }
+
+        .repairs_item_wrap{
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 60%;
+                max-width: 150px;
+                margin: 20px auto;
+            }
+            
+            .repairs_item_sub_wrap{
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: stretch;
+                justify-content: center;
+
+                p{
+                    font-size: 1.1em;
+                    margin: 20px 0;
+                }
+        
+                ul{
+                    font-family: 'Roboto', sans-serif;
+                    height: 0;
+                    visibility: hidden;
+                    transition: all 0.5s;
+                    list-style-type: "- ";
+                    list-style-position: inside;
+                    overflow: hidden;
+        
+                    li{
+                        margin: 10px auto;
+                    }
+                }
+
+                .visible{
+                    height: 850px;
+                    visibility: visible;
+                }
+        
+                .repairs_pc_btn{
+                    @include btn;
+                }
+        
+                .repairs_wm_btn{
+                    @include btn;
+                }
+        
+                .repairs_vc_btn{
+                    @include btn;
+                }   
+            }
+        }
+    }
+}
+

@@ -1,0 +1,56 @@
+@import "./variables";
+
+.home_main{
+    padding: 100px 0 20px;
+    text-align: center;
+
+    h1{
+        font-size: 1.8em;
+        margin: 20px auto;
+        color: $secondary_color;
+        width: 90%;
+    }
+
+    h2{
+        font-size: 1.2em;
+        color: $primary_bright;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    section{
+        background: $secondary_color;
+        width: 90%;
+        margin: 50px auto 0;
+        padding: 30px;
+
+        h2{
+            color: black;
+            margin-bottom: 50px;
+        }
+
+        .home_item{
+            margin: 50px 0;
+            padding: 30px;
+            border: $primary_color 3px solid;
+
+            img{
+                width: 60%;
+                max-width: 150px;
+            }
+
+            p{
+                font-size: 1.1em;
+                margin: 20px 0;
+            }
+            
+            a{
+                display: inline-block;
+                background: $primary_color;
+                padding: 20px;
+                color: $secondary_color;
+                font-weight: 500;
+            }
+        }
+    }
+}

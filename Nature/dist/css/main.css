@@ -115,8 +115,8 @@
 }
 
 .home-outer-bg {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/popuga.jpg) center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/popuga.jpg) center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(../img/popuga.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/popuga.jpg) center;
   position: absolute;
   z-index: 2;
   height: 100vh;
@@ -127,8 +127,8 @@
 }
 
 .home-bg-1 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/sova.jpg) center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/sova.jpg) center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(../img/sova.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/sova.jpg) center;
   position: absolute;
   z-index: 2;
   height: 100vh;
@@ -139,8 +139,8 @@
 }
 
 .home-bg-2 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/belka.jpg) center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/belka.jpg) center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(../img/belka.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/belka.jpg) center;
   position: absolute;
   z-index: 2;
   height: 100vh;
@@ -151,8 +151,8 @@
 }
 
 .home-bg-3 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/les2.jpg) center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/les2.jpg) center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(../img/les2.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/les2.jpg) center;
   position: absolute;
   z-index: 2;
   height: 100vh;
@@ -163,8 +163,8 @@
 }
 
 .home-bg-4 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/medved.jpg) center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/medved.jpg) center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(../img/medved.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/medved.jpg) center;
   position: absolute;
   z-index: 2;
   height: 100vh;
@@ -175,8 +175,8 @@
 }
 
 .home-bg-5 {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/orel.jpg) center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/orel.jpg) center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(../img/orel.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/orel.jpg) center;
   position: absolute;
   z-index: 2;
   height: 100vh;
@@ -289,8 +289,8 @@ main .home_text h2 {
 }
 
 .about_body {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/krol.jpg) center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/krol.jpg) center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(../img/krol.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/krol.jpg) center;
   background-size: cover;
   margin: 0;
   height: 100%;
@@ -400,8 +400,8 @@ main .home_text h2 {
 }
 
 .gallery_body {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/orel2.jpg) center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/orel2.jpg) center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(../img/orel2.jpg) center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/orel2.jpg) center top;
   background-size: cover;
   margin: 0;
   height: 100%;
@@ -552,8 +552,8 @@ main .home_text h2 {
 }
 
 .contacts_body {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/kot.jpg) center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/kot.jpg) center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(../img/kot.jpg) center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/kot.jpg) center top;
   background-size: cover;
   margin: 0;
   height: 100%;
@@ -643,8 +643,8 @@ main .home_text h2 {
 }
 
 .tours_body {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(/dist/img/volk.jpg) center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(/dist/img/volk.jpg) center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.8)), to(rgba(39, 39, 39, 0.8))), url(../img/volk.jpg) center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.8), rgba(39, 39, 39, 0.8)), url(../img/volk.jpg) center;
   background-size: cover;
   margin: 0;
   height: 100%;
@@ -1039,7 +1039,7 @@ header nav ul li a:hover {
 .grass_footer div {
   width: 100vw;
   height: 120px;
-  background: url(/dist/img/grass.png);
+  background: url(../img/grass.png);
   background-repeat: repeat-x;
   background-size: contain;
   -webkit-transition: all 0.5s;
