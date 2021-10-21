@@ -580,6 +580,15 @@ nav{
 
 @media screen and (max-width: 768px) {
 
+    header{
+        position: fixed;
+        width: 100vw;
+    }
+    
+    body{
+        padding-top: 53px;
+    }
+
     .mobile_btn_wrap{
         display: block;
         height: 50px;
