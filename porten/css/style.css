@@ -671,6 +671,7 @@ nav{
     }
 
     .nav_wrap>div:last-child{
+        padding-top: 55px;
         flex-flow: column-reverse nowrap;
         align-items: center;
         justify-content: center;
