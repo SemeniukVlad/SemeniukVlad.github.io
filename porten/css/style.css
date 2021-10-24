@@ -704,6 +704,7 @@ main a:hover, footer a:hover{
 
     .login_menu{
         color: white;
+        position: fixed;
     }
 
     .login_menu>a{
