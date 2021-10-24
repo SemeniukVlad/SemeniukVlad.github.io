@@ -591,7 +591,7 @@ main a:hover, footer a:hover{
         position: fixed;
         width: 100vw;
         z-index: 2;
-        padding-top: 53px
+        padding-top: 50px
     }
 
     .header_wrap{
