@@ -717,7 +717,7 @@ main a:hover, footer a:hover{
 
     .nav_wrap{
         justify-content: center;
-        padding-bottom: 80px;
+        padding-bottom: 100px;
     }
 
     .nav_wrap>div:first-child{
