@@ -831,7 +831,7 @@ main a:hover, footer a:hover{
     }
     
     .mailing form input[type="submit"]{
-        width: 40vw;
+        width: 30vw;
         padding: 12px 10px;
     }
 
@@ -869,5 +869,9 @@ main a:hover, footer a:hover{
     .brand_list{
         grid-template-columns: repeat(1, auto);
         row-gap: 50px;
+    }
+
+    .mailing form input[type="submit"]{
+        width: 40vw;
     }
 }
