@@ -623,8 +623,8 @@ main a:hover, footer a:hover{
     }
 
     .mobile_menu_btn{
-        padding-top: 4px;
-        width: 40px;
+        padding-top: 3px;
+        width: 35px;
         background-color: white;
         position: fixed;
         top: 25px;
@@ -634,19 +634,19 @@ main a:hover, footer a:hover{
 
     .mobile_menu_btn::before{
         content: " ";
-        padding-top: 4px;
-        width: 40px;
+        padding-top: 3px;
+        width: 35px;
         background-color: white;
         position: fixed;
-        top: 11px;
+        top: 12px;
         left: 20px;
         display: block;
     }
 
     .mobile_menu_btn::after{
         content: " ";
-        padding-top: 4px;
-        width: 40px;
+        padding-top: 3px;
+        width: 35px;
         background-color: white;
         position: fixed;
         top: 38px;
@@ -666,15 +666,15 @@ main a:hover, footer a:hover{
     .contacts .login_menu img:first-of-type{
         visibility: visible;
         position: fixed;
-        top: 19px;
-        right: 30px;
-        width: 27px;
+        top: 21px;
+        right: 28px;
+        width: 18px;
     }
     .contacts .login_menu img:last-of-type{
         visibility: visible;
         position: fixed;
-        width: 25px;
-        top: 9px;
+        width: 17px;
+        top: 15px;
         right: 22px;
         margin-right: 0;
     }
