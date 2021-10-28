@@ -139,6 +139,12 @@ h1{
     letter-spacing: 2px;
 }
 
+.main>.main_about>a:hover{
+    color: #333333;
+    background-color: white;
+}
+
+
 .about{
     padding: 80px 35px;
     text-align: center;
@@ -327,7 +333,14 @@ input[type="submit"]{
     border: none;
     margin-bottom: 40px;
     max-width: 190px;
+    transition: all 0.5s;
 }
+
+input[type="submit"]:hover{
+    color: #333333;
+    background-color: white;
+}
+
 
 form>p{
     text-align: center;
