@@ -666,7 +666,7 @@ main a:hover, footer a:hover{
     .contacts .login_menu img:first-of-type{
         visibility: visible;
         position: fixed;
-        top: 21px;
+        top: 22px;
         right: 28px;
         width: 18px;
     }
