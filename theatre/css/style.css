@@ -10,6 +10,7 @@
 body{
     background: #333333;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a{
@@ -72,31 +73,31 @@ header{
     font-weight: 600;
     font-size: 23px;
     margin: 15px 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 3px;
 }
 
 .logos_mob{
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(2,auto);
+    align-items: center;
     column-gap: 45px;
     row-gap: 50px;
 }
 
-
-
-.inst>img:last-of-type{
-    position: relative;
-    right: 45px;
-    bottom: 13px;
-}
-
-.inst>img:nth-child(2){
-    position: relative;
-    right: 39px;
+.logos_mob>a:first-of-type{
+    display: flex;
+    justify-content: center;
 }
 
 .menu_mob{
     left: 0;
+    padding-bottom: 150px;
+}
+
+.menu_mob>.menu_links>a{
+    letter-spacing: 2px;
 }
 
 header>a{
@@ -104,11 +105,12 @@ header>a{
     top: 55px;
     right: 30px;
     border-bottom: #D1A954 2px solid;
-    padding-bottom: 3px;
-    font-size: 13px;
+    padding-bottom: 1px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .main{
@@ -117,26 +119,31 @@ header>a{
     padding: 200px 35px 120px;
 }
 
+.sidebar{
+    display: none;
+}
+
 h1{
-    font-size: 44px;
-    letter-spacing: 8px;
+    font-size: 64px;
+    letter-spacing: 6px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .main>.main_about>p{
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 60px;
 }
 
 .main>.main_about>a{
-    display: inline-block;
-    padding: 10px 45px;
-    font-size: 16px;
+    padding: 14px 45px;
+    font-size: 18px;
     font-weight: 600;
     background: #D1A954;
     letter-spacing: 2px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .main>.main_about>a:hover{
@@ -154,10 +161,11 @@ h1{
 
 h2{
     font-weight: 100;
-    font-size: 32px;
+    font-size: 48px;
     letter-spacing: 6px;
     margin-bottom: 70px;
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h2>span{
@@ -166,14 +174,15 @@ h2>span{
 
 h3{
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 21px;
     letter-spacing: 3px;
     font-weight: 700;
     margin-bottom: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .about_wrap>div>p{
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 50px
 }
 
@@ -260,7 +269,6 @@ h3{
 }
 
 .review>p{
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 25px;
     margin-top: 28px;
@@ -286,9 +294,10 @@ form{
 }
 
 form>fieldset{
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(2,230px);
-    column-gap: 50px;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 45px;
     row-gap: 30px;
     margin-bottom: 30px;
 }
@@ -323,10 +332,9 @@ textarea{
 
 input[type="submit"]{
     color: white;
-    display: inline-block;
-    padding: 7px 45px;
-    font-size: 13px;
-    font-weight: bold;
+    padding: 14px 45px;
+    font-size: 18px;
+    font-weight: 600;
     background: #D1A954;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -334,6 +342,7 @@ input[type="submit"]{
     margin-bottom: 40px;
     max-width: 190px;
     transition: all 0.5s;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 input[type="submit"]:hover{
@@ -345,20 +354,20 @@ input[type="submit"]:hover{
 form>p{
     text-align: center;
     font-size: 12px;
-    font-family: 'Open Sans', sans-serif;
     width: 85%;
     color: #989898;
     margin-bottom: 50px;
 }
 
 .contact_info{
-    font-size: 13px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
     display: grid;
     grid-template-columns: repeat(2,auto);
-    row-gap: 15px;
+    row-gap: 20px;
 }
 
 .contact_phone_1{
@@ -408,9 +417,36 @@ footer>div>p{
     font-size: 12px;
 }
 
+@media screen and (max-width: 575px) {
+
+    .rating>ul {
+        font-size: 52px;
+    }
+
+    .review>p {
+        font-size: 22px;
+    }
+
+    .review>div>img {
+        width: 20px;
+    }
+
+    body > footer > div > p:nth-child(1){
+        margin-right: 20px;    
+    }
+
+    .contact_info {
+        column-gap: 20px;
+    }
+
+    .chair, .history {
+        align-items: center;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .main{
-        padding: 250px 100px 250px;
+        padding: 250px 114px 250px;
     }
 
     .about{
@@ -443,6 +479,10 @@ footer>div>p{
 
     .rating{
         padding: 120px 100px;
+    }
+
+    .review>p{
+        font-size: 29px;
     }
 
     form{
@@ -496,6 +536,108 @@ footer>div>p{
 }
 
 @media screen and (min-width: 992px) {
+
+    .menu_btn{
+        display: none;
+    }
+
+    .close_btn{
+        display: none;
+    }
+
+    .logos_mob{
+        display: none;
+    }
+
+    .menu_links{
+        align-self: center;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+    
+    .menu_links>a{
+        font-size: 18px;
+        margin: 0;
+        margin-right: 30px;
+        white-space: nowrap;
+    }
+
+    .menu_links>a:last-of-type{
+        margin-right: 0;
+    }
+    
+    header>a{
+        position: initial;
+    }
+
+    header nav{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        position: initial;
+        top: initial;
+        left: initial;
+        padding: 50px 0;
+        width:initial;
+        height: initial;
+        background: none;
+    }
+    
+    header{
+        padding: 0 80px 0 190px;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+    }
+    
+    .sidebar{
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: flex-end;
+        width: 150px;
+        height: 100vh;
+        background: #333333d5;
+        padding-bottom: 85px;
+    }    
+
+    .sidebar>img{
+        width: 26px;
+        margin-top: 30px;
+    }
+    
+    .sidebar>img:nth-of-type(2){
+        width: 15px;
+    }
+
+    .sidebar>p{
+        transform: rotate(-90deg);
+        white-space: nowrap;
+    }
+
+    .vertical_line{
+        padding-left: 3px;
+        background-color: #c4c4c4;
+        height: 80px;
+        margin-bottom: 10px;
+        margin-top: 140px;
+    }
+
+    .main{
+        padding: 380px 260px 380px 190px;
+    }
+
     .about{
         padding: 170px 111px 110px 190px;
         max-width: 992px;
@@ -545,6 +687,22 @@ footer>div>p{
 }
 
 @media screen and (min-width: 1366px) {
+
+    header{
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+    }
+
+    header>a{
+        margin-left: 167px;
+        position: initial;
+        white-space: nowrap;
+    }
 
     .maecenas_wrap{
         display: flex;
@@ -604,9 +762,20 @@ footer>div>p{
         margin-left: 120px;
     }
 
+    .review>p{
+        font-size: 36px;
+    }
+
+    .review>div>img{
+        width: 26px;
+        margin-right: 25px;
+    }    
+
     .maecenas{
         padding-left: 0;
         padding-right: 0;
+        margin-bottom: 0;
+        padding-bottom: 10px;
         max-width: 1366px;
     }
 
@@ -641,3 +810,4 @@ footer>div>p{
         max-width: 1366px;
     }
 }
+
