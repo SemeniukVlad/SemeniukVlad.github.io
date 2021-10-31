@@ -6,14 +6,6 @@ document.querySelector('.menu_btn').addEventListener('click', function(){
     document.body.classList.toggle('scroll_prevention');
 });
 
-for (let item of document.querySelectorAll('.menu_mob a')){
-    item.addEventListener('click', function(){
-        let menu = document.querySelector('nav');
-        menu.classList.toggle('menu_mob');
-        document.body.classList.toggle('scroll_prevention');
-    });
-}
-
 document.querySelector('.close_btn').addEventListener('click', function(){
     let menu = document.querySelector('nav');
     menu.classList.toggle('menu_mob');
