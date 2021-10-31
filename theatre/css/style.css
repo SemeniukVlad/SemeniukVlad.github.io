@@ -879,11 +879,7 @@ footer>div>p{
         z-index: 1;
         margin-right: -50px;
     }
-
-    .main{
-
-    }
-
+    
     .main_wrap{
         display: flex;
         flex-flow: row nowrap;
