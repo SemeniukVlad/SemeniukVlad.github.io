@@ -50,6 +50,10 @@ const swiper3 = new Swiper(".partners_swiper", {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
+    autoplay: {
+      delay: 5000,
+    },
+    disableOnInteraction:true,
     slidesPerView: 1,
     freeMode: true,
     grid: {
