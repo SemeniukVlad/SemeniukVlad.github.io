@@ -22,8 +22,10 @@ document.querySelector('.close_btn').addEventListener('click', function(){
 
 document.addEventListener('scroll', function(){
     if (window.pageYOffset>0){
+        document.querySelector('header>a').classList.add('phone_hide');
         document.querySelector('header').classList.add('bg_darken');
     } else {
+        document.querySelector('header>a').classList.remove('phone_hide');
         document.querySelector('header').classList.remove('bg_darken');
     }
 });

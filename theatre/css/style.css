@@ -426,7 +426,6 @@ footer>div>p{
 
 .bg_darken{
     background-color: #333333ec;
-    padding-bottom: 20px;
 }
 
 .pages{
@@ -499,7 +498,7 @@ footer>div>p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
 }
 
 .staging_slide{
@@ -570,12 +569,6 @@ footer>div>p{
 .staging_swiper{
     max-width: 1770px;
 }
-
-
-
-
-
-
 
 
 
@@ -770,7 +763,10 @@ footer>div>p{
     }
     
     header>a{
-        position: initial;
+        position: fixed;
+        text-align: center;
+        top: 125px;
+        right: auto;
     }
 
     header nav{
@@ -781,7 +777,7 @@ footer>div>p{
         position: initial;
         top: initial;
         left: initial;
-        padding: 50px 0;
+        padding: 50px 0 20px;
         width:initial;
         height: initial;
         background: none;
@@ -896,6 +892,12 @@ footer>div>p{
     footer{
         max-width: 992px;
     }
+
+    .phone_hide{
+        visibility: hidden;
+        opacity: 0;
+    }
+        
 }
 
 @media screen and (min-width: 1366px) {
@@ -911,9 +913,16 @@ footer>div>p{
     }
 
     header>a{
+        align-self: flex-start;
+        margin-top: 50px;
         margin-left: 167px;
         position: initial;
         white-space: nowrap;
+    }
+
+    .phone_hide{
+        visibility: visible;
+        opacity: 1;
     }
 
     .maecenas_wrap{
