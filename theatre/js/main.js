@@ -23,9 +23,15 @@ document.querySelector('.close_btn').addEventListener('click', function(){
 document.addEventListener('scroll', function(){
     if (window.pageYOffset>0){
         document.querySelector('header>a').classList.add('phone_hide');
+        document.querySelector('header>a').classList.add('scroll_header_mob');
+        document.querySelector('.menu_btn').classList.add('scroll_header_mob');
+        document.querySelector('nav').classList.add('scroll_nav');
         document.querySelector('header').classList.add('bg_darken');
     } else {
         document.querySelector('header>a').classList.remove('phone_hide');
+        document.querySelector('header>a').classList.remove('scroll_header_mob');
+        document.querySelector('.menu_btn').classList.remove('scroll_header_mob');
+        document.querySelector('nav').classList.remove('scroll_nav');
         document.querySelector('header').classList.remove('bg_darken');
     }
 });
