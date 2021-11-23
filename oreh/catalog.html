@@ -130,10 +130,10 @@
         <div class="header__menu-wrapper">
             <ul class="header__menu-list">
                 <li class="header__menu-item">
-                    <a class="header__menu-link" href="#">Магазин</a>
+                    <a class="header__menu-link" href="catalog.html">Магазин</a>
                 </li>
                 <li class="header__menu-item">
-                    <a class="header__menu-link" href="#">О производстве</a>
+                    <a class="header__menu-link" href="about.html">О производстве</a>
                 </li>
                 <li class="header__menu-item">
                     <a class="header__menu-link" href="#">Оплата и доставка</a>
@@ -235,7 +235,17 @@
         </section>
         <section class="product-block">
             <div class="product-block__wrapper">
-                <div class="product-block__filters"></div>
+                <div class="product-block__filters">
+                    <div class="dropdown oreh-dropdown oreh-dropdown--flavour">
+                        <button class="btn btn-secondary dropdown-toggle oreh-dropdown__btn" type="button" id="flavour" data-bs-toggle="dropdown" aria-expanded="false">
+                          Вкус
+                        </button>
+                        <ul class="dropdown-menu oreh-dropdown__menu" aria-labelledby="flavour">
+                          <li class="dropdown-item oreh-dropdown__item">Сладкий</li>
+                          <li class="dropdown-item oreh-dropdown__item">Солёный</li>
+                        </ul>
+                      </div>
+                </div>
                 <div class="product-block__card-grid">
     <div class="product-card">
         <div class="swiper product-card__slider">
@@ -790,7 +800,7 @@
             <div class="footer__menu-wrapper">
                 <ul class="footer__menu-list">
                     <li class="footer__menu-item">
-                        <a class="footer__menu-link" href="#">Магазин</a>
+                        <a class="footer__menu-link" href="catalog.html">Магазин</a>
                     </li>
                     <li class="footer__menu-item">
                         <a class="footer__menu-link" href="#">Корпоративным клиентам</a>
@@ -799,7 +809,7 @@
                         <a class="footer__menu-link" href="#">Оплата и доставка</a>
                     </li>
                     <li class="footer__menu-item">
-                        <a class="footer__menu-link" href="#">О производстве</a>
+                        <a class="footer__menu-link" href="about.html">О производстве</a>
                     </li>
                     <li class="footer__menu-item">
                         <a class="footer__menu-link" href="#">Новости и статьи</a>
