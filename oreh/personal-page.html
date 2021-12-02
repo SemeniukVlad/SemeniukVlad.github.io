@@ -11,7 +11,7 @@
 <script src="js/bootstrap.bundle.min.js" defer></script>
 <script src="js/swiper-bundle.min.js" defer></script>
 <script src="js/main.min.js" defer></script>
-    <title>О компании</title>
+    <title>Личный кабинет</title>
 </head>
 
 <body>
@@ -280,351 +280,355 @@
         </div>
     </div>
 </header>
-    <main class="about">
-        <section class="video-wide video-wide--about">
-            <video class="video-wide__video video-wide__video--about" src="#"></video>
-            <div class="video-wide__text-wrap video-wide__text-wrap--about">
-                <div class="intro-links intro-links--about">
-                    <a class="intro-links__link" href="index.html">Главная</a>
-                    <img class="intro-links__arrow" src="img/icons/arrow-right-white.svg" alt="">
-                    <a class="intro-links__link" href="about.html">О производстве</a>
-                </div>
-                <h2 class="video-wide__title">Орех Причерноморья</h2>
-                <p class="video-wide__text video-wide__text--about">Единственный в Украине сад совместного выращивание
-                    фундука и грецкого ореха</p>
-                <div class="play-btn play-btn--about">
-                    <div class="play-btn__outer">
-                        <div class="play-btn__inner">
-                        </div>
+    <main class="personal-page">
+        <div class="personal-page__intro-links">
+            <div class="intro-links intro-links--gray">
+                <a class="intro-links__link intro-links__link--gray" href="index.html">Главная</a>
+                <img class="intro-links__arrow" src="img/icons/arrow-right-gray.svg" alt="">
+                <a class="intro-links__link intro-links__link--gray" href="personal-page.html">Личный кабинет</a>
+            </div>
+        </div>
+        <div class="personal-page__wrapper">
+            <div class="personal-page__top">
+                <div class="personal-page__top-left">
+                    <h2 class="title-left title-left--smaller">Учетная запись</h2>
+                    <div class="personal-manager">
+                        <p class="personal-manager__text">Ваш личный менеджер Олег</p>
+                        <a class="personal-manager__number" href="#">+38 067 777 14 12</a>
                     </div>
                 </div>
+                <div class="personal-page__discount">Ваша персональная скидка - 5%</div>
             </div>
-        </section>
-        <section class="manufacturer">
-            <div class="manufacturer__wrapper">
-                <div class="manufacturer__info">
-                    <h2 class="title-left">О производителе</h2>
-                    <p class="manufacturer__text">
-                        Сельскохозяйственный обслуживающий кооператив “Орех Причерноморья”
-                        выращивает смешанные сады ореха грецкого с фундуком, а также ореха грецкого с шиповником, на
-                        площади более 150 гектаров.
-                    </p>
-                    <p class="manufacturer__text">Помимо этого кооператив занимается выращиванием посадочного материала,
-                        саженцов привитого и непривитого грецкого ореха, фундука и шиповника.</p>
-                    <p class="manufacturer__text">Предприятие укомплектовано всей необходимой техникой
-                        и оборудованием для выращивания интенсивного сада, воспроизводства саженцев в питомнике и
-                        выращивания трюфеля. </p>
+            <div class="personal-page__bottom">
+                <div class="personal-page__left">
+                    <ul class="personal-page__list">
+                        <h3 class="personal-page__list-title">Мои заказы</h3>
+                        <li class="personal-page__list-item" data-value="orders">
+                            <p class="personal-page__list-text">История заказов</p>
+                        </li>
+                        <li class="personal-page__list-item" data-value="transactions">
+                            <p class="personal-page__list-text">История транзакций</p>
+                        </li>
+                    </ul>
+                    <ul class="personal-page__list">
+                        <h3 class="personal-page__list-title">Моя учетная запись</h3>
+                        <li class="personal-page__list-item" data-value="contact">
+                            <p class="personal-page__list-text">Контактная информация</p>
+                        </li>
+                        <li class="personal-page__list-item"><a class="personal-page__list-link"
+                                href="password.html">Пароль</a></li>
+                        <li class="personal-page__list-item" data-value="address">
+                            <p class="personal-page__list-text">Адрес</p>
+                        </li>
+                    </ul>
                 </div>
-                <div class="swiper manufacturer__slider">
-                    <div class="swiper-wrapper manufacturer__slider-wrapper">
-                        <div class="manufacturer__slider-item-1 swiper-slide">
-                            <div class="manufacturer__video-wrap">
-                                <video class="manufacturer__video" src="#"></video>
-                                <div class="manufacturer__video-overlay manufacturer__video-overlay--about">
-                                    <div class="play-btn manufacturer__play-btn">
-                                        <div class="play-btn__outer manufacturer__play-outer">
-                                            <div class="play-btn__inner manufacturer__play-inner">
-                                            </div>
-                                        </div>
+                <div class="personal-page__right">
+                    <div class="personal-page__address personal-page-hide" data-value="address">
+                        <div class="personal-page__address-wrapper">
+                            <form class="personal-page__address-form">
+                                <fieldset class="personal-page__address-field">
+                                    <h3 class="personal-page__address-title">1. Реквизиты</h3>
+                                    <input class="oreh-inputText personal-page__input" type="text" name="okpo"
+                                        placeholder="ОКПО">
+                                </fieldset>
+                                <fieldset class="personal-page__address-field">
+                                    <h3 class="personal-page__address-title">2. Адрес</h3>
+                                    <div class="dropdown oreh-dropdown oreh-dropdown--personal-page">
+                                        <button class="btn btn-secondary dropdown-toggle oreh-dropdown__btn" type="button"
+                                            id="country" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Страна
+                                        </button>
+                                        <ul class="dropdown-menu oreh-dropdown__menu" aria-labelledby="country">
+                                            <li class="dropdown-item oreh-dropdown__item">Страна</li>
+                                        </ul>
                                     </div>
+                                    <div class="dropdown oreh-dropdown oreh-dropdown--personal-page">
+                                        <button class="btn btn-secondary dropdown-toggle oreh-dropdown__btn" type="button"
+                                            id="region" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Область
+                                        </button>
+                                        <ul class="dropdown-menu oreh-dropdown__menu" aria-labelledby="region">
+                                            <li class="dropdown-item oreh-dropdown__item">Область</li>
+                                        </ul>
+                                    </div>
+                                    <input class="oreh-inputText personal-page__input" type="text" name="city"
+                                        placeholder="Город*">
+                                    <input class="oreh-inputText personal-page__input" type="text" name="address"
+                                        placeholder="Адрес">
+                                </fieldset>
+                                <fieldset class="personal-page__address-field">
+                                    <h3 class="personal-page__address-title">2. Юридический адрес</h3>
+                                    <div class="dropdown oreh-dropdown oreh-dropdown--personal-page">
+                                        <button class="btn btn-secondary dropdown-toggle oreh-dropdown__btn" type="button"
+                                            id="country-yur" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Страна
+                                        </button>
+                                        <ul class="dropdown-menu oreh-dropdown__menu" aria-labelledby="country-yur">
+                                            <li class="dropdown-item oreh-dropdown__item">Страна</li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown oreh-dropdown oreh-dropdown--personal-page">
+                                        <button class="btn btn-secondary dropdown-toggle oreh-dropdown__btn" type="button"
+                                            id="region-yur" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Область
+                                        </button>
+                                        <ul class="dropdown-menu oreh-dropdown__menu" aria-labelledby="region-yur">
+                                            <li class="dropdown-item oreh-dropdown__item">Область</li>
+                                        </ul>
+                                    </div>
+                                    <input class="oreh-inputText personal-page__input" type="text" name="city-yur"
+                                        placeholder="Город*">
+                                    <input class="oreh-inputText personal-page__input" type="text" name="address-yur"
+                                        placeholder="Адрес">
+                                    <input class="oreh-inputText personal-page__input" type="text" name="index"
+                                        placeholder="Индекс">
+                                </fieldset>
+                                <input class="personal-page__address-submit" type="submit" value="Сохранить">
+                            </form>
+                            <div class="personal-page__address-right">
+                                <h2 class="personal-page__address-rightTitle">Орех Причерноморья</h2>
+                                <p class="personal-page__address-rightText">Единственный в Украине сад совместного
+                                    выращивания фундука и грецкого ореха</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="personal-page__contact personal-page-hide" data-value="contact">
+                        <form class="personal-page__contact-form">
+                            <div class="personal-page__contact-upper">
+                                <fieldset class="personal-page__contact-field">
+                                    <input class="oreh-inputText personal-page__input" type="text" name="FIO"
+                                        placeholder="ФИО*">
+                                    <input class="oreh-inputText personal-page__input" type="text" name="Email"
+                                        placeholder="Email*">
+                                    <input class="oreh-inputText personal-page__input" type="text" name="number"
+                                        placeholder="Телефон*">
+                                </fieldset>
+                                <div class="personal-page__contact-photo">
+                                    <p class="personal-page__contact-text">Изменить фото</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="manufacturer__slider-item-2 swiper-slide">
-                            <div class="manufacturer__video-wrap">
-                                <video class="manufacturer__video" src="#"></video>
-                                <div class="manufacturer__video-overlay manufacturer__video-overlay--about">
-                                    <div class="play-btn manufacturer__play-btn">
-                                        <div class="play-btn__outer manufacturer__play-outer">
-                                            <div class="play-btn__inner manufacturer__play-inner">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="manufacturer__slider-item-3 swiper-slide">
-                            <div class="manufacturer__video-wrap">
-                                <video class="manufacturer__video" src="#"></video>
-                                <div class="manufacturer__video-overlay manufacturer__video-overlay--about">
-                                    <div class="play-btn manufacturer__play-btn">
-                                        <div class="play-btn__outer manufacturer__play-outer">
-                                            <div class="play-btn__inner manufacturer__play-inner">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            <input class="personal-page__contact-submit" type="submit" value="Сохранить">
+                        </form>
                     </div>
-                    <div class="manufacturer__green-bar"></div>
-                    <div class="swiper-button-prev manufacturer__prev"></div>
-                    <div class="swiper-button-next manufacturer__next"></div>
-                </div>
-            </div>
-        </section>
-        <section class="tulba">
-            <div class="tulba__wrapper">
-                <div class="tulba__leftside">
-                    <div class="tulba__photo">
-                        <img class="tulba__photo-img" src="img/main/tulba-photo.png" alt="">
+                    <div class="personal-page__orders personal-page-hide" data-value="orders">
+                        <table class="personal-page__orders-table">
+                            <thead class="personal-page__orders-head">
+                                <tr class="personal-page__orders-row">
+                                    <th class="personal-page__orders-header">
+                                        № Заказа
+                                        <svg class="personal-page__orders-arrow" width="10" height="7" viewBox="0 0 10 7"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.99357 4.43185L1.22265 0.6L0 1.94522L4.99357 7L10 1.94522L8.77735 0.6L4.99357 4.43185Z"
+                                                fill="#8A8A8A" />
+                                        </svg>
+    
+                                    </th>
+                                    <th class="personal-page__orders-header">
+                                        Дата
+                                        <svg class="personal-page__orders-arrow" width="10" height="7" viewBox="0 0 10 7"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.99357 4.43185L1.22265 0.6L0 1.94522L4.99357 7L10 1.94522L8.77735 0.6L4.99357 4.43185Z"
+                                                fill="#8A8A8A" />
+                                        </svg>
+                                    </th>
+                                    <th class="personal-page__orders-header">
+                                        Кол - во товаров
+                                        <svg class="personal-page__orders-arrow" width="10" height="7" viewBox="0 0 10 7"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.99357 4.43185L1.22265 0.6L0 1.94522L4.99357 7L10 1.94522L8.77735 0.6L4.99357 4.43185Z"
+                                                fill="#8A8A8A" />
+                                        </svg>
+                                    </th>
+                                    <th class="personal-page__orders-header">
+                                        Статус
+                                        <svg class="personal-page__orders-arrow" width="10" height="7" viewBox="0 0 10 7"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.99357 4.43185L1.22265 0.6L0 1.94522L4.99357 7L10 1.94522L8.77735 0.6L4.99357 4.43185Z"
+                                                fill="#8A8A8A" />
+                                        </svg>
+                                    </th>
+                                    <th class="personal-page__orders-header">
+                                        Стоимость
+                                        <svg class="personal-page__orders-arrow" width="10" height="7" viewBox="0 0 10 7"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.99357 4.43185L1.22265 0.6L0 1.94522L4.99357 7L10 1.94522L8.77735 0.6L4.99357 4.43185Z"
+                                                fill="#8A8A8A" />
+                                        </svg>
+                                    </th>
+                                    <th class="personal-page__orders-header">
+                                        Функции
+                                        <svg class="personal-page__orders-arrow" width="10" height="7" viewBox="0 0 10 7"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.99357 4.43185L1.22265 0.6L0 1.94522L4.99357 7L10 1.94522L8.77735 0.6L4.99357 4.43185Z"
+                                                fill="#8A8A8A" />
+                                        </svg>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody class="personal-page__orders-body">
+                                <tr class="personal-page__orders-row">
+                                    <td class="personal-page__orders-cell">
+                                        23
+                                    </td>
+                                    <td class="personal-page__orders-cell">
+                                        3.05.2019
+                                    </td>
+                                    <td class="personal-page__orders-cell">
+                                        13
+                                    </td>
+                                    <td class="personal-page__orders-cell">
+                                        Отправлено
+                                    </td>
+                                    <td class="personal-page__orders-cell">
+                                        2500 грн.
+                                    </td>
+                                    <td class="personal-page__orders-cell">
+                                        <a class="personal-page__orders-link" href="order.html">
+                                            <svg class="personal-page__orders-eye" width="24" height="24" viewBox="0 0 24 24"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M23.8475 12.4668C23.6331 12.7601 18.5245 19.6483 11.9999 19.6483C5.47529 19.6483 0.36647 12.7601 0.152297 12.4671C-0.0507657 12.1888 -0.0507657 11.8114 0.152297 11.5332C0.36647 11.2399 5.47529 4.35165 11.9999 4.35165C18.5245 4.35165 23.6331 11.2399 23.8475 11.533C24.0508 11.8112 24.0508 12.1888 23.8475 12.4668ZM11.9999 5.93406C7.19383 5.93406 3.03127 10.5059 1.79907 12.0005C3.02968 13.4965 7.18352 18.0659 11.9999 18.0659C16.8057 18.0659 20.968 13.4949 22.2007 11.9995C20.9701 10.5036 16.8163 5.93406 11.9999 5.93406Z"/>
+                                            <path
+                                                d="M11.9992 16.7473C9.38163 16.7473 7.25195 14.6176 7.25195 12C7.25195 9.38238 9.38163 7.2527 11.9992 7.2527C14.6168 7.2527 16.7465 9.38238 16.7465 12C16.7465 14.6176 14.6168 16.7473 11.9992 16.7473ZM11.9992 8.83516C10.2541 8.83516 8.83441 10.2549 8.83441 12C8.83441 13.7451 10.2541 15.1648 11.9992 15.1648C13.7443 15.1648 15.164 13.7451 15.164 12C15.164 10.2549 13.7444 8.83516 11.9992 8.83516Z"/>
+                                        </svg>
+                                        </a>
+                                        <svg class="personal-page__orders-copy" width="16" height="21" viewBox="0 0 16 21" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0 0C0.00513809 0.0974598 0.0102762 0.189791 0.0102762 0.287251C0.0102762 6.25794 0.0102762 12.2235 0.0102762 18.1942C0.0102762 18.2865 0.0102762 18.384 0.0102762 18.502C0.827232 18.502 1.63391 18.502 2.46114 18.502C2.46114 19.3432 2.46114 20.169 2.46114 21C6.9878 21 11.4888 21 16 21C16 14.8447 16 8.6893 16 2.51344C15.1985 2.51344 14.3969 2.51344 13.5645 2.51344C13.5645 1.66195 13.5645 0.830973 13.5645 0C9.04303 0 4.52152 0 0 0ZM1.25883 17.2709C1.25883 11.9157 1.25883 6.58109 1.25883 1.24646C4.95311 1.24646 8.63712 1.24646 12.316 1.24646C12.316 6.59648 12.316 11.926 12.316 17.2709C8.62685 17.2709 4.94798 17.2709 1.25883 17.2709ZM14.772 3.73937C14.772 9.09966 14.772 14.4343 14.772 19.7741C11.0777 19.7741 7.40398 19.7741 3.71997 19.7741C3.71997 19.3534 3.71997 18.938 3.71997 18.502C7.00321 18.502 10.2762 18.502 13.5697 18.502C13.5697 13.5674 13.5697 8.6534 13.5697 3.73937C13.9807 3.73937 14.3712 3.73937 14.772 3.73937Z"/>
+                                        </svg>
+                                    </td>
+                                </tr>
+                                <tr class="personal-page__orders-row">
+                                    <td class="personal-page__orders-cell">
+                                        24
+                                    </td>
+                                    <td class="personal-page__orders-cell">
+                                        10.05.2019
+                                    </td>
+                                    <td class="personal-page__orders-cell">
+                                        15
+                                    </td>
+                                    <td class="personal-page__orders-cell">
+                                        В ожидании 
+                                    </td>
+                                    <td class="personal-page__orders-cell">
+                                        2400 грн.
+                                    </td>
+                                    <td class="personal-page__orders-cell">
+                                        <a class="personal-page__orders-link" href="order.html">
+                                            <svg class="personal-page__orders-eye" width="24" height="24" viewBox="0 0 24 24"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M23.8475 12.4668C23.6331 12.7601 18.5245 19.6483 11.9999 19.6483C5.47529 19.6483 0.36647 12.7601 0.152297 12.4671C-0.0507657 12.1888 -0.0507657 11.8114 0.152297 11.5332C0.36647 11.2399 5.47529 4.35165 11.9999 4.35165C18.5245 4.35165 23.6331 11.2399 23.8475 11.533C24.0508 11.8112 24.0508 12.1888 23.8475 12.4668ZM11.9999 5.93406C7.19383 5.93406 3.03127 10.5059 1.79907 12.0005C3.02968 13.4965 7.18352 18.0659 11.9999 18.0659C16.8057 18.0659 20.968 13.4949 22.2007 11.9995C20.9701 10.5036 16.8163 5.93406 11.9999 5.93406Z"/>
+                                            <path
+                                                d="M11.9992 16.7473C9.38163 16.7473 7.25195 14.6176 7.25195 12C7.25195 9.38238 9.38163 7.2527 11.9992 7.2527C14.6168 7.2527 16.7465 9.38238 16.7465 12C16.7465 14.6176 14.6168 16.7473 11.9992 16.7473ZM11.9992 8.83516C10.2541 8.83516 8.83441 10.2549 8.83441 12C8.83441 13.7451 10.2541 15.1648 11.9992 15.1648C13.7443 15.1648 15.164 13.7451 15.164 12C15.164 10.2549 13.7444 8.83516 11.9992 8.83516Z"/>
+                                        </svg>
+                                        </a>
+                                        <svg class="personal-page__orders-copy" width="16" height="21" viewBox="0 0 16 21" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0 0C0.00513809 0.0974598 0.0102762 0.189791 0.0102762 0.287251C0.0102762 6.25794 0.0102762 12.2235 0.0102762 18.1942C0.0102762 18.2865 0.0102762 18.384 0.0102762 18.502C0.827232 18.502 1.63391 18.502 2.46114 18.502C2.46114 19.3432 2.46114 20.169 2.46114 21C6.9878 21 11.4888 21 16 21C16 14.8447 16 8.6893 16 2.51344C15.1985 2.51344 14.3969 2.51344 13.5645 2.51344C13.5645 1.66195 13.5645 0.830973 13.5645 0C9.04303 0 4.52152 0 0 0ZM1.25883 17.2709C1.25883 11.9157 1.25883 6.58109 1.25883 1.24646C4.95311 1.24646 8.63712 1.24646 12.316 1.24646C12.316 6.59648 12.316 11.926 12.316 17.2709C8.62685 17.2709 4.94798 17.2709 1.25883 17.2709ZM14.772 3.73937C14.772 9.09966 14.772 14.4343 14.772 19.7741C11.0777 19.7741 7.40398 19.7741 3.71997 19.7741C3.71997 19.3534 3.71997 18.938 3.71997 18.502C7.00321 18.502 10.2762 18.502 13.5697 18.502C13.5697 13.5674 13.5697 8.6534 13.5697 3.73937C13.9807 3.73937 14.3712 3.73937 14.772 3.73937Z"/>
+                                        </svg>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="tulba__desc">
-                        <h3 class="tulba__title">Павел Тулба</h3>
-                        <h4 class="tulba__subtitle">Учередитель и владелец предприятия “Орех Причерноморья”</h4>
-                        <p class="tulba__quote">Главная наша цель – получить максимальную прибыль с одного гектара. </p>
-                        <a class="tulba__btn" href="#">Написать нам</a>
-                    </div>
-                </div>
-                <div class="tulba__rightside">
-                    <h3 class="tulba__rightside-title">История предприятия</h3>
-                    <p class="tulba__rightside-text">Наше предприятие основано в 2012 году 
-                        для закладки смешанного сада грецкого ореха 
-                        и фундука. </p>
-                    <p class="tulba__rightside-text">На сегодня мы уже заложили более 100 гектаров сада и продолжаем расширять свои насаждения. Кроме выращивания грецкого ореха и фундука, мы занимаемся выращиванием саженцев, разведением и выращиванием овец, а также являемся первой в Украине компанией, приступившей к промышленному выращиванию трюфелей на корнях фундука.</p>
-                    <p class="tulba__rightside-text">Земля, которой пользуется кооператив, является собственностью членов нашего кооператива.</p>
-                    <img class="tulba__rightside-logo" src="img/icons/logo-hover.svg" alt="">
-                </div>
-            </div>
-        </section>
-        <section class="stats">
-    <div class="stats__wrapper">
-        <div class="stats__item">
-            <div class="stats__upper">
-                <p class="stats__upper-big">240</p>
-                <p class="stats__mini">Га</p>
-            </div>
-            <p class="stats__bottom">Cмешанных садов</p>
-        </div>
-        <div class="stats__item">
-            <div class="stats__upper">
-                <p class="stats__upper-big">1</p>
-                <p class="stats__mini">Га</p>
-            </div>
-            <p class="stats__bottom">Тепличного комплекса</p>
-        </div>
-        <div class="stats__item">
-            <div class="stats__upper">
-                <p class="stats__upper-big">10</p>
-                <p class="stats__mini">Га</p>
-            </div>
-            <p class="stats__bottom stats__bottom--wide">Первая промышленная плантация шиповника в Украине</p>
-        </div>
-        <div class="stats__item stats__item--last">
-            <div class="stats__upper">
-                <p class="stats__upper-big">80</p>
-                <p class="stats__mini">%</p>
-            </div>
-            <p class="stats__bottom">Приживаемости саженцев</p>
-        </div>
-    </div>
-</section>
-        <section class="gallery__section">
-            <div class="title-middle">
-                <h3 class="title-middle__title">Галерея</h3>
-                <p class="title-middle__subtitle">Кадры социальной активности компании</p>
-            </div>
-            <div class="gallery-block">
-                <div class="gallery-block__wrap">
-    <div class="gallery-block__upper">
-        <div class="gallery-block__item gallery-block__2-dudes">
-            <img class="gallery-block__2-dudes-img" src="img/main/2-dudes.png" alt="">
-            <div class="gallery-block__hover">
-                <h3 class="gallery-block__hover-title">SIAL Paris 2018</h3>
-                <p class="gallery-block__hover-text">В этом Году при поддержке проекта International Trade Centre Ukraine, и финансировании правительства Швеции, мы побывали 
-                    на крупнейшей продовольственной выставке Европы <span class="gallery-block__hover-span">SIAL Paris 2018</span></p>
-                <img class="gallery-block__hover-logo" src="img/icons/logo-hover.svg" alt="">
-            </div>
-        </div>
-        <div class="gallery-block__item gallery-block__hay">
-            <img class="gallery-block__hay-img" src="img/main/hay.png" alt="">
-            <div class="gallery-block__hover">
-                <h3 class="gallery-block__hover-title">SIAL Paris 2018</h3>
-                <p class="gallery-block__hover-text">В этом Году при поддержке проекта International Trade Centre Ukraine, и финансировании правительства Швеции, мы побывали 
-                    на крупнейшей продовольственной выставке Европы <span class="gallery-block__hover-span">SIAL Paris 2018</span></p>
-                <img class="gallery-block__hover-logo" src="img/icons/logo-hover.svg" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="gallery-block__middle">
-        <div class="gallery-block__item video-wide video-wide--gallery">
-            <video class="video-wide__video video-wide__video--gallery" src="#"></video>
-            <div class="video-wide__text-wrap video-wide__text-wrap--gallery">
-                <div class="play-btn">  
-                    <div class="play-btn__outer">
-                        <div class="play-btn__inner">
+                    <div class="personal-page__transactions personal-page-hide" data-value="transactions">
+                        <div class="personal-page__transactions-wrapper">
+                            <table class="personal-page__transactions-table">
+                                <thead class="personal-page__transactions-head">
+                                    <tr class="personal-page__transactions-row">
+                                        <th class="personal-page__transactions-header">
+                                            Добавлено
+                                            <svg class="personal-page__transactions-arrow" width="10" height="7" viewBox="0 0 10 7"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M4.99357 4.43185L1.22265 0.6L0 1.94522L4.99357 7L10 1.94522L8.77735 0.6L4.99357 4.43185Z"
+                                                    fill="#8A8A8A" />
+                                            </svg>
+        
+                                        </th>
+                                        <th class="personal-page__transactions-header">
+                                            Статус
+                                            <svg class="personal-page__transactions-arrow" width="10" height="7" viewBox="0 0 10 7"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M4.99357 4.43185L1.22265 0.6L0 1.94522L4.99357 7L10 1.94522L8.77735 0.6L4.99357 4.43185Z"
+                                                    fill="#8A8A8A" />
+                                            </svg>
+                                        </th>
+                                        <th class="personal-page__transactions-header">
+                                            Сумма
+                                            <svg class="personal-page__transactions-arrow" width="10" height="7" viewBox="0 0 10 7"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M4.99357 4.43185L1.22265 0.6L0 1.94522L4.99357 7L10 1.94522L8.77735 0.6L4.99357 4.43185Z"
+                                                    fill="#8A8A8A" />
+                                            </svg>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="personal-page__transactions-body">
+                                    <tr class="personal-page__transactions-row">
+                                        <td class="personal-page__transactions-cell">
+                                            3.05.2019
+                                        </td>
+                                        <td class="personal-page__transactions-cell">
+                                            Платеж принят
+                                        </td>
+                                        <td class="personal-page__transactions-cell">
+                                            2500 грн.
+                                            <a class="personal-page__transactions-link" href="order.html">
+                                                <svg class="personal-page__transactions-eye" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M23.8475 12.4668C23.6331 12.7601 18.5245 19.6483 11.9999 19.6483C5.47529 19.6483 0.36647 12.7601 0.152297 12.4671C-0.0507657 12.1888 -0.0507657 11.8114 0.152297 11.5332C0.36647 11.2399 5.47529 4.35165 11.9999 4.35165C18.5245 4.35165 23.6331 11.2399 23.8475 11.533C24.0508 11.8112 24.0508 12.1888 23.8475 12.4668ZM11.9999 5.93406C7.19383 5.93406 3.03127 10.5059 1.79907 12.0005C3.02968 13.4965 7.18352 18.0659 11.9999 18.0659C16.8057 18.0659 20.968 13.4949 22.2007 11.9995C20.9701 10.5036 16.8163 5.93406 11.9999 5.93406Z"/>
+                                                <path
+                                                    d="M11.9992 16.7473C9.38163 16.7473 7.25195 14.6176 7.25195 12C7.25195 9.38238 9.38163 7.2527 11.9992 7.2527C14.6168 7.2527 16.7465 9.38238 16.7465 12C16.7465 14.6176 14.6168 16.7473 11.9992 16.7473ZM11.9992 8.83516C10.2541 8.83516 8.83441 10.2549 8.83441 12C8.83441 13.7451 10.2541 15.1648 11.9992 15.1648C13.7443 15.1648 15.164 13.7451 15.164 12C15.164 10.2549 13.7444 8.83516 11.9992 8.83516Z"/>
+                                            </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr class="personal-page__transactions-row">
+                                        <td class="personal-page__transactions-cell">
+                                            3.05.2019
+                                        </td>
+                                        <td class="personal-page__transactions-cell">
+                                            Платеж принят
+                                        </td>
+                                        <td class="personal-page__transactions-cell">
+                                            2500 грн.
+                                            <a class="personal-page__transactions-link" href="order.html">
+                                                <svg class="personal-page__transactions-eye" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M23.8475 12.4668C23.6331 12.7601 18.5245 19.6483 11.9999 19.6483C5.47529 19.6483 0.36647 12.7601 0.152297 12.4671C-0.0507657 12.1888 -0.0507657 11.8114 0.152297 11.5332C0.36647 11.2399 5.47529 4.35165 11.9999 4.35165C18.5245 4.35165 23.6331 11.2399 23.8475 11.533C24.0508 11.8112 24.0508 12.1888 23.8475 12.4668ZM11.9999 5.93406C7.19383 5.93406 3.03127 10.5059 1.79907 12.0005C3.02968 13.4965 7.18352 18.0659 11.9999 18.0659C16.8057 18.0659 20.968 13.4949 22.2007 11.9995C20.9701 10.5036 16.8163 5.93406 11.9999 5.93406Z"/>
+                                                <path
+                                                    d="M11.9992 16.7473C9.38163 16.7473 7.25195 14.6176 7.25195 12C7.25195 9.38238 9.38163 7.2527 11.9992 7.2527C14.6168 7.2527 16.7465 9.38238 16.7465 12C16.7465 14.6176 14.6168 16.7473 11.9992 16.7473ZM11.9992 8.83516C10.2541 8.83516 8.83441 10.2549 8.83441 12C8.83441 13.7451 10.2541 15.1648 11.9992 15.1648C13.7443 15.1648 15.164 13.7451 15.164 12C15.164 10.2549 13.7444 8.83516 11.9992 8.83516Z"/>
+                                            </svg>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                    </div>
-                </div>
-                <h2 class="video-wide__title video-wide__title--gallery">Проект UBHDP</h2>
-                <p class="video-wide__text video-wide__text--gallery">Вчера к нам приезжал американский агроном Рон , спасибо Мельнику Евгению и
-                    проекту<span class="video-wide__span"> UBHDP </span>за возможность получить консультацию
-                    от мировых специалистов!
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="gallery-block__bottom">
-        <div class="gallery-block__item gallery-block__tractor">
-            <img class="gallery-block__tractor-img" src="img/main/tractor-field.png" alt="">
-            <div class="gallery-block__hover">
-                <h3 class="gallery-block__hover-title">SIAL Paris 2018</h3>
-                <p class="gallery-block__hover-text">В этом Году при поддержке проекта International Trade Centre Ukraine, и финансировании правительства Швеции, мы побывали 
-                    на крупнейшей продовольственной выставке Европы <span class="gallery-block__hover-span">SIAL Paris 2018</span></p>
-                <img class="gallery-block__hover-logo gallery-block__hover-logo--small" src="img/icons/logo-hover.svg" alt="">
-            </div>
-        </div>
-        <div class="gallery-block__item gallery-block__greens">
-            <img class="gallery-block__greens-img" src="img/main/greens.png" alt="">
-            <div class="gallery-block__hover">
-                <h3 class="gallery-block__hover-title">SIAL Paris 2018</h3>
-                <p class="gallery-block__hover-text">В этом Году при поддержке проекта International Trade Centre Ukraine, и финансировании правительства Швеции, мы побывали 
-                    на крупнейшей продовольственной выставке Европы <span class="gallery-block__hover-span">SIAL Paris 2018</span></p>
-                <img class="gallery-block__hover-logo gallery-block__hover-logo--small" src="img/icons/logo-hover.svg" alt="">
-            </div>
-        </div>
-        <div class="gallery-block__item gallery-block__tulba">
-            <div class="gallery-block__tulba-wrap">
-                <video class="gallery-block__tulba-video" src="#"></video>
-                <div class="gallery-block__tulba-overlay">
-                    <div class="play-btn">  
-                        <div class="play-btn__outer">
-                            <div class="play-btn__inner">
-                            </div>
-                        </div>
-                    </div>
-                    <h2 class="gallery-block__tulba-title">Проект UBHDP</h2>
-                    <p class="gallery-block__tulba-text">Вчера к нам приезжал американский агроном Рон , спасибо Мельнику Евгению и
-                        проекту<span class="gallery-block__tulba-span"> UBHDP </span>за возможность получить консультацию
-                        от мировых специалистов!
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-            </div>
-            <a class="gallery__btn gallery__btn--about" href="gallery.html">Смотреть всю галерею</a>
-        </section>
-        <section class="eco eco--about">
-            <div class="eco__wrapper">
-                <img class="eco__icon" src="img/icons/eco.svg" alt="">
-                <h2 class="eco__title">Эко продукция</h2>
-                <p class="eco__text">Выращиваем каждое деревцо с любовью, на экологически чистой земле, без
-                    использования пестицидов и химии</p>
-            </div>
-        </section>
-        <section class="news-block">
-    <div class="news-block__wrapper">
-        <div class="swiper news-block__slider">
-            <h3 class="title-left">Новости</h3>
-            <p class="title-left title-left--subtitle">Свежие новости и полезная информация</p>
-            <div class="swiper-wrapper news-block__slider-wrapper">
-                <div class="swiper-slide news-block__slider-item">
-                    <div class="news-block__item-wrapper">
-                        <div class="news-block__item-upper">
-                            <img class="news-block__item-visual" src="img/main/pavel-news-block.png" alt="">
-                        </div>
-                        <div class="news-block__item-bottom">
-                            <p class="news-block__item-date">12.04.2019</p>
-                            <h4 class="news-block__item-title">Центр поддержки экспорта, в студии Павел Тулба</h4>
-                            <p class="news-block__item-text">Как уже упоминал Павел Тулба, шиповник цветёт. Эта культура
-                                очень недооценена среди наших садоводов, не смотря на большой спрос в Европе и отличную...
-                            </p>
-                            <a href="news-page.html" class="news-block__item-link">Читать
-                                <svg class="news-block__item-arrow" width="18" height="10" viewBox="0 0 18 10" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M17.7938 5.49771C17.7936 5.49792 17.7934 5.49816 17.7931 5.49838L14.1192 9.15463C13.8439 9.42853 13.3988 9.42751 13.1248 9.15224C12.8508 8.877 12.8519 8.43181 13.1271 8.15788L15.5938 5.70313H0.703125C0.314789 5.70313 0 5.38834 0 5C0 4.61166 0.314789 4.29688 0.703125 4.29688H15.5938L13.1272 1.84212C12.8519 1.56819 12.8509 1.123 13.1248 0.847764C13.3988 0.572455 13.844 0.571506 14.1192 0.845373L17.7932 4.50163C17.7934 4.50184 17.7936 4.50208 17.7938 4.50229C18.0692 4.77714 18.0683 5.22377 17.7938 5.49771Z"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide news-block__slider-item">
-                    <div class="news-block__item-wrapper">
-                        <div class="news-block__item-upper">
-                            <video class="news-block__video news-block__video--meeting" src="#"></video>
-                            <div class="news-block__video-overlay">
-                                <img class="news-block__item-visual" src="img/main/meeting-news-block.png" alt="">
-                                <div class="play-btn news-block__play-btn">
-                                    <div class="play-btn__outer">
-                                        <div class="play-btn__inner">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news-block__item-bottom">
-                            <p class="news-block__item-date">12.04.2019</p>
-                            <h4 class="news-block__item-title">Центр поддержки экспорта, в студии Павел Тулба</h4>
-                            <p class="news-block__item-text">Как уже упоминал Павел Тулба, шиповник цветёт. Эта культура
-                                очень недооценена среди наших садоводов, не смотря на большой спрос в Европе и отличную...
-                            </p>
-                            <a href="news-page.html" class="news-block__item-link">Читать
-                                <svg class="news-block__item-arrow" width="18" height="10" viewBox="0 0 18 10" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M17.7938 5.49771C17.7936 5.49792 17.7934 5.49816 17.7931 5.49838L14.1192 9.15463C13.8439 9.42853 13.3988 9.42751 13.1248 9.15224C12.8508 8.877 12.8519 8.43181 13.1271 8.15788L15.5938 5.70313H0.703125C0.314789 5.70313 0 5.38834 0 5C0 4.61166 0.314789 4.29688 0.703125 4.29688H15.5938L13.1272 1.84212C12.8519 1.56819 12.8509 1.123 13.1248 0.847764C13.3988 0.572455 13.844 0.571506 14.1192 0.845373L17.7932 4.50163C17.7934 4.50184 17.7936 4.50208 17.7938 4.50229C18.0692 4.77714 18.0683 5.22377 17.7938 5.49771Z"/>
-                                </svg>
-                            </a>
-                        </div>
+                        <p class="personal-page__transactions-notice">У вас не было транзакций!</p>
                     </div>
                 </div>
-                <div class="swiper-slide news-block__slider-item">
-                    <div class="news-block__item-wrapper">
-                        <div class="news-block__item-upper">
-                            <img class="news-block__item-visual" src="img/main/nut-crate-news-block.png" alt="">
-                        </div>
-                        <div class="news-block__item-bottom">
-                            <p class="news-block__item-date">12.04.2019</p>
-                            <h4 class="news-block__item-title">Центр поддержки экспорта, в студии Павел Тулба</h4>
-                            <p class="news-block__item-text">Как уже упоминал Павел Тулба, шиповник цветёт. Эта культура
-                                очень недооценена среди наших садоводов, не смотря на большой спрос в Европе и отличную...
-                            </p>
-                            <a href="news-page.html" class="news-block__item-link">Читать
-                                <svg class="news-block__item-arrow" width="18" height="10" viewBox="0 0 18 10" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M17.7938 5.49771C17.7936 5.49792 17.7934 5.49816 17.7931 5.49838L14.1192 9.15463C13.8439 9.42853 13.3988 9.42751 13.1248 9.15224C12.8508 8.877 12.8519 8.43181 13.1271 8.15788L15.5938 5.70313H0.703125C0.314789 5.70313 0 5.38834 0 5C0 4.61166 0.314789 4.29688 0.703125 4.29688H15.5938L13.1272 1.84212C12.8519 1.56819 12.8509 1.123 13.1248 0.847764C13.3988 0.572455 13.844 0.571506 14.1192 0.845373L17.7932 4.50163C17.7934 4.50184 17.7936 4.50208 17.7938 4.50229C18.0692 4.77714 18.0683 5.22377 17.7938 5.49771Z"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide news-block__slider-item">
-                    <div class="news-block__item-wrapper">
-                        <div class="news-block__item-upper">
-                            <img class="news-block__item-visual" src="img/main/pavel-news-block.png" alt="">
-                        </div>
-                        <div class="news-block__item-bottom">
-                            <p class="news-block__item-date">12.04.2019</p>
-                            <h4 class="news-block__item-title">Центр поддержки экспорта, в студии Павел Тулба</h4>
-                            <p class="news-block__item-text">Как уже упоминал Павел Тулба, шиповник цветёт. Эта культура
-                                очень недооценена среди наших садоводов, не смотря на большой спрос в Европе и отличную...
-                            </p>
-                            <a href="news-page.html" class="news-block__item-link">Читать
-                                <svg class="news-block__item-arrow" width="18" height="10" viewBox="0 0 18 10" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M17.7938 5.49771C17.7936 5.49792 17.7934 5.49816 17.7931 5.49838L14.1192 9.15463C13.8439 9.42853 13.3988 9.42751 13.1248 9.15224C12.8508 8.877 12.8519 8.43181 13.1271 8.15788L15.5938 5.70313H0.703125C0.314789 5.70313 0 5.38834 0 5C0 4.61166 0.314789 4.29688 0.703125 4.29688H15.5938L13.1272 1.84212C12.8519 1.56819 12.8509 1.123 13.1248 0.847764C13.3988 0.572455 13.844 0.571506 14.1192 0.845373L17.7932 4.50163C17.7934 4.50184 17.7936 4.50208 17.7938 4.50229C18.0692 4.77714 18.0683 5.22377 17.7938 5.49771Z"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="news-block__green-bar">
-                <div class="swiper-button-prev news-block__prev"></div>
-                <div class="swiper-button-next news-block__next"></div>
             </div>
 
         </div>
-        <a class="news-block__link" href="news.html">Смотреть все новости</a>
-    </div>
-</section>
+
     </main>
-    <footer class="footer">
+    <footer class="footer footer--dark">
         <div class="footer__top">
     <div class="footer__top-wrapper">
         <div class="footer__contacts" id="contacts">
