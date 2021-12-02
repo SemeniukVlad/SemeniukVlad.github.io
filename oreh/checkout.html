@@ -466,7 +466,7 @@
                 <input class="oreh-inputText checkout__form-input" type="text" name="Email" placeholder="Email*">
                 <input class="oreh-inputText checkout__form-input" type="text" name="number" placeholder="Телефон*">
             </fieldset>
-            <fieldset class="checkout__form-field checkout__form-field--samo">
+            <fieldset class="checkout__form-field checkout__form-field--samo checkout-hide">
                 <h3 class="checkout__form-title">1. Контактные данные</h3>
                 <input class="oreh-inputText checkout__form-input" type="text" name="company" placeholder="Компания">
                 <input class="oreh-inputText checkout__form-input" type="text" name="contact" placeholder="Контактное лицо">
@@ -477,7 +477,7 @@
                 <h3 class="checkout__form-title">2. Способ доставки</h3>
                 <label class="checkout__label checkout__label--nova"><input class="form-check-input oreh-radio checkout__radio" type="radio"
                     name="delivery" id="nova">Новая почта (по Украине оплата за счет Клиента)</label>
-                <div class="checkout__nova-dropdowns">
+                <div class="checkout__nova-dropdowns  checkout-hide">
                     <div class="dropdown oreh-dropdown oreh-dropdown--checkout">
                         <button class="btn btn-secondary dropdown-toggle oreh-dropdown__btn" type="button"
                             id="country" data-bs-toggle="dropdown" aria-expanded="false">
@@ -500,7 +500,7 @@
                 <label class="checkout__label checkout__label--cour"><input class="form-check-input oreh-radio checkout__radio" type="radio"
                     name="delivery" id="cour">Курьер по Одессе <img src="img/icons/sticker.svg" alt="" class="checkout__label-sticker"></label>
                 <div class="checkout__cour">
-                    <input class="oreh-inputText checkout__form-input" type="text" name="address" placeholder="Адрес*">
+                    <input class="oreh-inputText checkout__form-input checkout__form-input--address  checkout-hide" type="text" name="address" placeholder="Адрес*">
                 </div>
                 <label class="checkout__label checkout__label--samo"><input class="form-check-input oreh-radio checkout__radio" type="radio"
                     name="delivery" id="samo">Самовывоз со склада</label>
