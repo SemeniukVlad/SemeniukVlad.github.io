@@ -406,7 +406,7 @@ footer{
         display: flex;
         flex-flow: row wrap;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         margin-bottom: 100px;
     }
     
@@ -416,18 +416,29 @@ footer{
     
     .logo{
         position: initial;
-        min-width: 70px;
-        width: 70px;
+        min-width: 120px;
+        width: 120px;
         height: initial;
         background: none;
         border-bottom: none;
-        margin-left: 7px;
+        margin-left: 5%;
         margin-bottom: 20px;
     }
     
     .logo>img{
+        margin: 0 20px 0 30px;
         position: initial;
         width: initial;
+    }
+
+    .navWrap{
+        max-width: 1170px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5%;
+        width: 100%;
     }
     
     .leftNav{
