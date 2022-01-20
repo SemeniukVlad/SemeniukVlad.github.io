@@ -114,6 +114,7 @@ header{
 }
 
 .lang{
+    cursor: pointer;
     position: fixed;
     right: 10px;
     top: 15px;
@@ -168,6 +169,8 @@ header{
     margin-right: 20px;
     color: white;
     background-color: #ff3946;
+    box-shadow: 0px 3px 5px #ffaeb4;
+    white-space: nowrap;
 }
 
 .illustration{
@@ -181,11 +184,19 @@ header{
     margin-bottom: 200px;
 }
 
+.portfolioTitle{
+    color: #314584;
+    font-weight: 600;
+    font-size: 38px;
+    margin: 0;
+    text-align: center;
+}
 .titleLeft{
     color: #314584;
     font-weight: 600;
     font-size: 38px;
     margin: 0;
+    text-align: start;
 }
 
 .gallery{
@@ -339,8 +350,34 @@ footer{
     margin-right: 0;
 }
 
+.langOptions{
+    position: fixed;
+    display: flex;
+    flex-flow: column nowrap;
+    right: 10px;
+    top: 50px;
+    visibility: hidden;
+    opacity: 0;
+    background-color: white;
+    border: 1px solid #314584;
+    transition: all 0.3s;
+}
 
+.langOption{
+    font-weight: 600;
+    color: #314584;
+    font-size: 20px;
+    padding: 20px 25px;
+    border-bottom: 1px solid #314584;
+}
+.langOption:last-of-type{
+    border-bottom: none;
+}
 
+.optionsShow{
+    visibility: visible;
+    opacity: 1;
+}
 
 
 
@@ -505,12 +542,21 @@ footer{
 
     
     .lang{
-        position: initial;
+        position: relative;
         font-size: 18px;
-        cursor: pointer;
         transition: all 0.3s;
         padding: 15px;
+        right: initial;
+        top: initial;
     }
+
+    .langOptions{
+        position: absolute;
+        right: 0px;
+        top: 50px;
+        border-radius: 5px;
+    }
+    
     
     .lang:hover{
         color: #ff3946;
@@ -549,7 +595,6 @@ footer{
         padding: 20px 35px;
         border-radius: 30px;
         margin-right: 40px;
-        box-shadow: 0px 3px 5px #ffaeb4;
     }
     .buttonRed:hover{
         color: white;
@@ -578,12 +623,14 @@ footer{
         margin: 0 auto 200px;
         padding: 15px;
     }
+
+    .portfolioTitle{
+        font-size: 48px;
+        text-align: start;
+    }
     
     .titleLeft{
-        color: #314584;
-        font-weight: 600;
         font-size: 48px;
-        margin: 0;
     }
     
     .gallery{
